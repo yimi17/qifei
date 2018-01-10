@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+/*-------------------
+		header
+--------------------*/
+@media screen and (max-width:990px){
+	#header .header-con .logo{
+		margin-left:30%;
+	}
+	#header .header-con .nav{
+		display:none;
+	}
+	#header .header-con .login .login-1{
+		display:none;
+	}
+	#header .header-con .login .login-3{
+		display:inline-block;
+	}
+	#header .header-con .login ul.list{
+		display:block;
+	}
+/*-------------------
+		con>sidebar
+--------------------*/
+	#content .sideBar{
+		display:none;
+	}
+/*-------------------
+		con>视频区
+--------------------*/
+	#content .sec1{
+		height:480px;
+	}
+	#content .sec1 video{
+		height:480px;
+	}
+	#content .sec1 .con1{
+		display:none;
+	}
+	#content .sec1 .con2{
+		display:block;
+	}
+	#content .sec1 .con2 p.p1{
+		font-size:30px;
+		text-align:right;
+		margin-right:10px;
+	}
+	#content .sec1 .con2 p.p2{
+		font-size:16px;
+	}
+	#content .sec1 .con2 a.a1{
+		float:left;
+		padding:10px 40px;
+		font-size:16px;
+	}
+	#content .sec1 a.a2{
+		display:none;
+	}
+/*-------------------
+		更快 
+--------------------*/
+	#content .text{
+		width:80%;
+		margin-left:10%;
+	}
+	#content .text h3{
+		margin-top:40px;
+		font-size:30px;
+	}
+	#content .text p{
+		font-size:14px;
+	}
+	#content .sec2 .img{
+		width:100%;
+		height:auto;
+	}
+	#content .sec2 .img img.img1{
+		display:none;
+	}
+	#content .sec2 .img img.img2{
+		display:block;
+		width:90%;
+		margin:auto;
+	}
+	#content .sec2 .img video{
+		display:none;
+	}
+/*-------------------
+		H5模板
+--------------------*/
+	#content .sec3 .img{
+		float:none;
+		width:95%;
+		margin:auto;
+	}
+	#content .sec3 .text{
+		float:none;
+		width:80%;
+		margin-top:50px;
+	}
+/*-------------------
+		云
+--------------------*/
+	#content .sec7 ul{
+		margin-bottom:0;
+	}
+	#content .sec7 ul li{
+		margin:0;
+	}
+	#content .sec7 ul li p{
+		font-size:12px;
+	}
+/*-------------------
+		服务
+--------------------*/
+	#content .sec9 ul{
+		display:block;
+	}
+	#content .sec9 ul li{
+		width:80%;
+		margin:auto;
+	}
+/*-------------------
+		工具
+--------------------*/
+	#content .sec10 .text p{
+		color:#fff;
+	}
+/*-------------------
+		合作
+--------------------*/
+	#content .sec11 .text{
+		width:100%;
+	}
+	#content .sec11 ul{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	#content .sec11 ul li{
+		width:45%;
+		margin:0;
+		border:1px solid #ccc;
+	}
+	#content .sec11 ul li img{
+		width:70%;
+	}
+	#content .sec11 ul li p{
+		display:none;
+	}
+/*-------------------
+		评价
+--------------------*/
+	#content .sec12{
+		display:none;
+	}
+/*-------------------
+		轮播图2
+--------------------*/
+	#content .sec13{
+		display:none;
+	}	
+/*-------------------
+	footer>服务热线 
+--------------------*/
+	#footer .sec14 .sec14-top div.fr{
+		max-width:100px;
+	}
+	#footer .sec14 .sec14-top div.top1{
+		float:none;
+		margin:0;
+	}
+	#footer .sec14 .sec14-top div.top2{
+		float:none;
+		margin:20px 0;
+	}
+
+	#footer .sec14 .sec14-top span{
+		font-size:16px;
+	}
+	#footer .sec14 .sec14-top p{
+		font-size:12px;
+	}
+/*-------------------
+	footer>资讯
+--------------------*/
+	#footer .sec14 .sec14-con .conL{
+		width:99%;
+		margin:auto;
+	}
+	#footer .sec14 .sec14-con .conR{
+		display:none;
+	}
+/*-------------------
+	footer>版权
+--------------------*/
+	#footer .sec14 .sec14-footer{
+		line-height:20px;
+		padding:20px 0;
+	}
+}
+/*-------------------
+		第二层响应
+--------------------*/
+/*-------------------
+		header
+--------------------*/
+@media screen and (max-width:500px){
+
+	#header .header-con .logo{
+		margin-left:0;
+	}
+	#header .header-con2 .header-con .login .login-2{
+		display:none;
+	}
+/*-------------------
+		视频区
+--------------------*/
+	#content .sec1 .con2{
+		margin:50% auto;
+	}
+	#content .sec1 .con2 p.p1{
+		text-align:center;
+	}
+	#content .sec1 .con2 p.p2{
+		text-align:center;
+		font-size:14px;
+	}
+	#content .sec1 .con2 a.a1{
+		float:none;
+		font-size:14px;
+	}
+	#content .text h3{
+		font-size:20px;
+	}
+	#content .text p{
+		font-size:12px;
+		line-height:25px;
+	}
+/*-------------------
+		轮播图1-模板
+--------------------*/
+	#content .sec8{
+		display: none;
+	}
+}
